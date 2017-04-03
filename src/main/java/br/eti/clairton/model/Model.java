@@ -16,7 +16,7 @@ import br.eti.clairton.identificator.Identificator;
 /**
  * Abstract contract fir entities.
  * 
- * @author Clairton Rodrigo Heinzen<clairton.rodrigo@gmail.com>
+ * @author Clairton Rodrigo Heinzen clairton.rodrigo@gmail.com
  */
 @Cacheable
 @MappedSuperclass
@@ -33,7 +33,7 @@ public abstract class Model extends Identificable implements Serializable, Clone
 	}
 
 	/**
-	 * {@inheritDoc}.</br>
+	 * {@inheritDoc}.
 	 * Clone the object with null in id.
 	 */
 	@Override
