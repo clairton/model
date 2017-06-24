@@ -1,11 +1,10 @@
 package br.eti.clairton.model;
 
-import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
+/**
+ * @deprecated use Base_
+ */
 @StaticMetamodel(Model.class)
-public abstract class Model_ {
-
-	public static volatile SingularAttribute<Model, Long> id;
-
+public abstract class Model_ extends Base_ {
 }

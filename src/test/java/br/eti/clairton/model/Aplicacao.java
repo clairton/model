@@ -12,7 +12,7 @@ import br.eti.clairton.identificator.Identificator;
  */
 @Entity
 @Table(name = "aplicacoes")
-public class Aplicacao extends Model {
+public class Aplicacao extends Base {
 	private static final long serialVersionUID = 1L;
 
 	@Identificator

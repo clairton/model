@@ -6,7 +6,7 @@
 	<persistence-unit name="default" transaction-type="JTA">
 		<jta-data-source>java:/jdbc/datasources/MyDS</jta-data-source>
 		<class>br.eti.clairton.model.Aplicacao</class>
-		<class>br.eti.clairton.model.Model</class>
+		<class>br.eti.clairton.model.Base</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<!-- Batto JPA properties -->
